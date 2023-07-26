@@ -1,0 +1,84 @@
+/* Reset default list styles and add some padding */
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Style for the thumbnail images */
+  #thumbnails li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  #thumbnails img {
+    width: 150px;
+    height: 100px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  #thumbnails img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Style for the featured image and caption */
+  #featuredImage {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+  }
+  
+  #featuredImage img {
+    max-width: 100%;
+  }
+  
+  #featuredImage figcaption {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Add a creative background to the gallery */
+  #gallery {
+    background: linear-gradient(135deg, #f39c12, #e74c3c);
+    padding: 30px;
+  }
+  
+  /* Optional: Add a header and footer to the gallery */
+  header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Optional: Add a title to the page */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin: 30px 0;
+  }
+  
+  /* Optional: Add a decorative border around the gallery */
+  #gallery {
+    border: 5px solid #ccc;
+    border-radius: 20px;
+  }
+  
